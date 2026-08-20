@@ -50,7 +50,7 @@ footer {visibility: hidden;}
 /* --- CSS CHO KHUNG CHAT NỔI (CĂN PHẢI TUYỆT ĐỐI) --- */
 [data-testid="stExpander"] {
     position: fixed !important;
-    bottom: 15px !important;
+    bottom: 40px !important;
     right: 15px !important;
     left: auto !important; 
     width: auto !important; 
