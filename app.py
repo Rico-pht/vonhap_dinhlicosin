@@ -10,10 +10,12 @@ st.set_page_config(page_title="Vở Nháp AI", page_icon="📐", layout="wide")
 # 2. CSS TỔNG HỢP (Banner + Khung chat nổi góc phải)
 st.markdown("""
 <style>
-/* Ẩn logo "Made with Streamlit" và menu mặc định */
+/* Ẩn mọi loại logo và menu mặc định của Streamlit */
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
+.viewerBadge_container {display: none !important;}
+.viewerBadge_link {display: none !important;}
 
 /* Ép bong bóng chat luôn nổi lên trên mọi vật cản */
 .floating-chat-btn {
